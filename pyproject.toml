@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mlops-gcp-infra"
+version = "0.1.0"
+description = "Resources and scripts to play around with common ML lifecycle problems"
+authors = ["Franco Bocci"]
+license = "Not open source"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.18.1"
+isort = "^5.10.1"
+yapf = "^0.32.0"
+ipdb = "^0.13.9"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
